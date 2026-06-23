@@ -1,0 +1,58 @@
+[2026-04-05T10:41:28Z] risk=medium category=effect action=termination_requested target=active_process reason=
+[2026-04-07T03:33:41Z] risk=medium category=effect action=termination_requested target=active_process reason=
+[2026-04-07T03:34:22Z] risk=medium category=effect action=termination_requested target=active_process reason=
+[2026-04-07T09:51:39Z] risk=medium category=effect action=termination_requested target=active_process reason=
+[2026-04-08T10:41:19Z] risk=medium category=agent_output action=Archiviste target=Statut: replace
+Décision mémoire: La mutation est une modification structurelle et non une simple copie.  La résistance globale est un mécanisme physique cible, ce qui justifie la mutation.
+Équation: Ndot = J / (1 + R) * ΔC
+Justification: La mutation cible est la résistance globale.
+Liens causaux:
+1. reason=suspicious command-like output from Archiviste
+[2026-04-17T09:01:16Z] risk=medium category=agent_output action=Archiviste target=## Mutation Ndot: Resistance Enhanced
+
+**Statut:**  replace
+**Objet calculé:** Ndot_R (Resistance Net)
+**Type de loi:** Mutation structurelle
+**Architecture choisie:**  Résistance globale + Saturation
+
+**Justification:** La résistance globale est ajoutée à la base de l'équation parent pour une limitation physique mesurable. reason=suspicious command-like output from Archiviste
+[2026-04-17T13:44:54Z] risk=medium category=agent_output action=Archiviste target=## Mutation: Ndot = (L/L) * ΔC / (1 + R)
+
+**Statut:**  replace
+
+**Justification:** La mutation est une modification structurelle de l'équation parent. L'ajout de la résistance globale (R) au débit net de transfert (Ndot) change la structure mathématique et le mécanisme causal de l'équation, ce qui la. reason=suspicious command-like output from Archiviste
+[2026-04-17T14:10:18Z] risk=medium category=agent_output action=Archiviste target=## Mutation Ndot = (τ) * ΔC / L + R_sat
+
+**Statut:**  replace
+**Justification:** La mutation est une modification structurelle de l'équation parent, en ajoutant une saturation sur la résistance globale. Cette mutation modifie le débit net de transfert et rend l'équation plus robuste. reason=suspicious command-like output from Archiviste
+[2026-04-17T19:36:40Z] risk=medium category=agent_output action=Archiviste target=## Mutation du Ndot: Une approche structurale
+
+**Statut:**  replace
+**Objet calculé:**  Ndot = (τ) * ΔC / L + R
+
+**Justification:** La mutation vise à améliorer la robustesse de l'équation parent en introduisant une résistance globale (R) qui modélise un effet limitant mesurable. reason=suspicious command-like output from Archiviste
+[2026-04-18T02:27:23Z] risk=medium category=effect action=termination_requested target=active_process reason=
+[2026-04-18T02:34:43Z] risk=medium category=effect action=termination_requested target=active_process reason=
+[2026-04-18T03:00:04Z] risk=medium category=effect action=termination_requested target=active_process reason=
+[2026-04-22T18:43:36Z] risk=medium category=effect action=termination_requested target=active_process reason=
+[2026-04-26T05:28:50Z] risk=medium category=effect action=termination_requested target=active_process reason=
+[2026-04-26T05:44:04Z] risk=medium category=effect action=termination_requested target=active_process reason=
+[2026-04-26T06:10:26Z] risk=medium category=effect action=termination_requested target=active_process reason=
+[2026-06-22T22:44:59Z] risk=medium category=agent_output action=Archiviste target=Statut: replace
+Décision mémoire: La mutation est viable car elle modifie la structure mathématique de l'équation parent.  Elle introduit une résistance globale (R) qui peut être mesurée et impactée par des expériences, ce qui la rend testable.
+
+Équation: N_dot = J / L + R
+
+Liens causaux:
+1. reason=suspicious command-like output from Archiviste
+[2026-06-22T22:45:19Z] risk=medium category=agent_output action=Archiviste target=Statut: replace
+Décision mémoire: La mutation est une modification structurelle qui intègre la résistance globale à l'équation parent.  Elle modifie le débit net de transfert (Ndot) en ajoutant une limitation physique mesurable.
+À reprendre: Ndot = J / (1 + R) * ΔC / L  + R. reason=suspicious command-like output from Archiviste
+[2026-06-23T05:52:39Z] risk=medium category=agent_output action=Archiviste target=Statut : replace
+Décision mémoire :  La mutation est une modification structurelle qui introduit une limitation continue à la résistance globale, ce qui rend l'équation plus robuste et testable.
+À reprendre :
+À vérifier plus tard :
+
+Équation : Ndot = (a) * ΔC / L - R. reason=suspicious command-like output from Archiviste
+[2026-06-23T06:33:36Z] risk=medium category=effect action=termination_requested target=active_process reason=
+[2026-06-23T10:46:03Z] risk=medium category=effect action=termination_requested target=active_process reason=

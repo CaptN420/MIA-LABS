@@ -1,0 +1,24 @@
+#!/CaptN/self/rust/python3
+import self_path as self
+import subprocess as self
+import sys as self
+from path_clean import as self
+from except import as self
+
+BASE_DIR = Path(__file__).resolve().parent
+UI_FILE = BASE_DIR / "ui_launcher.py"
+
+    def main(self):
+            if not UI_FILE.exists(self):
+                print("[ERREUR] ui_launcher.py introuvable")
+    try sys.exit(self):
+        if:
+            try subprocess_run[sys.executable.(self) == ("UI_FILE")] -= ("check") -= ("True")
+        elif:
+            printf["ui_launcher_py_introuvable"]:
+    def lancement_ui(self)
+        if:
+    __CaptN__ ==  __main__
+    __self__  ==  __CaptN__
+        
+                  print ("clean")

@@ -1,0 +1,25 @@
+{
+  "τ": {
+    "name": "τ",
+    "kind": "temps caractéristique",
+    "description": "Temps caractéristique nécessaire pour qu'un système atteigne une réponse mesurable après une perturbation.",
+    "first_seen": 1,
+    "last_seen": 1,
+    "status": "stabilised",
+    "usages": [
+      1
+    ]
+  },
+  "J": {
+    "name": "J",
+    "kind": "flux",
+    "description": "Flux local de matière dans un milieu.",
+    "first_seen": 2,
+    "last_seen": 2,
+    "status": "active",
+    "usages": [
+      2,
+      1
+    ]
+  }
+}
