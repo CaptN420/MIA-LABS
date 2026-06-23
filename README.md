@@ -248,7 +248,7 @@ ollama pull gemma2:2b
 Launch MIA:
 
 ```bash
-python ui_launcher.py
+python start_v2.py
 ```
 
 ---
